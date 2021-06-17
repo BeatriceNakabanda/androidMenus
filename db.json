@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "versionMessage": "Added Districts and Banks",
+  "districts": [
+ 
+    {
+      "name": "KASANDA",
+      "code": "KASAN"
+    },
+    {
+      "name": "KITGUM",
+      "code": "KITGM"
+    },
+ 
+  ],
+  "banks": [
+    {
+      "name": "DFCU",
+      "code": "001",
+      "accountTypes": [
+        {
+          "name": "Dembe",
+          "code": "DEMB",
+          "category": "Savings"
+        },
+        {
+          "name": "Saving Plus",
+          "code": "SAVP",
+          "category": "Savings"
+        },
+        {
+          "name": "Young Savers",
+          "code": "YOUS",
+          "category": "Savings"
+        },
+        {
+          "name": "Salary",
+          "code": "SAL",
+          "category": "Current"
+        }
+      ]
+    },
+    {
+      "name": "CENTENARY",
+      "code": "002",
+      "accountTypes": [
+        {
+          "name": "Cente Ordinary",
+          "code": "CENTO",
+          "category": "Savings"
+        },
+        {
+          "name": "Cente Plus",
+          "code": "CENTP",
+          "category": "Savings"
+        },
+        {
+          "name": "Cente Current",
+          "code": "CENTC",
+          "category": "Current"
+        }
+      ]
+    }
+  ],
+  "occupations": null
+}
